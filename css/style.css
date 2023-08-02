@@ -1,0 +1,176 @@
+/* CSS */
+body {
+    background-color: #F5F7FA;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: rgba(255, 255, 255, 1);*/
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+
+
+h3 {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+ h4 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.sidebar {
+    width: 370px;
+    height: 1279px;
+    position: absolute;
+    padding-top: 40px;
+    background: #1E2939;
+}
+
+.sidebar div {
+    display: block;
+}   
+
+.left-text {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.left-text h2 {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.left-text h3 {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.left-text h3 > span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-style: normal;
+}
+
+.left-text span {
+    /*opacity: 0.5;*/
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.left-text li {
+    color: #FB6D3A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.left-text ul {
+    margin-left: -25px;
+}
+
+
+.content {
+    width: 830px; 
+    margin-left: 375px;
+    background-color: #FFF;
+    height: 1239px;
+    padding: 40px 45px 40px 75px;
+    
+    text-overflow: initial;
+}
+
+.content p{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 125% */
+}
+
+.intro {
+    width: 540px;
+    flex-shrink: 0;
+}
+.intro p{
+    margin-bottom: 40px;
+    color: #595959; 
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 15px;
+}
+
+.name {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.projects {
+    flex-shrink: 0;
+}
+
+.projects ol {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.projects span {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.work span {
+    color: #FB6D3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.work > p > span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.work-list {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 509px;
+}
+
+
+
